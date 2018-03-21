@@ -1,4 +1,4 @@
-package br.com.transferr.core.constants;
+package br.com.barcadero.genius.core.constants;
 
 public class ConstantServicesREST {
 	

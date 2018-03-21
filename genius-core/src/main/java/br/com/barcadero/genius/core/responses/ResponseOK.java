@@ -1,4 +1,4 @@
-package br.com.transferr.core.responses;
+package br.com.barcadero.genius.core.responses;
 
 public class ResponseOK {
 

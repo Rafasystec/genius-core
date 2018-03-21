@@ -1,9 +1,9 @@
-package br.com.transferr.core.dao;
+package br.com.barcadero.genius.core.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import br.com.transferr.core.model.Entidade;
+import br.com.barcadero.genius.core.model.Entidade;
 
 public  abstract class SuperClassDAO<T extends Entidade>  {
 	public abstract T find(long codigo) ;

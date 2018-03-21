@@ -1,4 +1,4 @@
-package br.com.transferr.core.mail;
+package br.com.barcadero.genius.mail;
 
 import java.util.Properties;
 

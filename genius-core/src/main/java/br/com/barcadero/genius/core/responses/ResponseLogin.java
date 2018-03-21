@@ -1,6 +1,6 @@
-package br.com.transferr.core.responses;
+package br.com.barcadero.genius.core.responses;
 
-import br.com.transferr.core.model.User;
+import br.com.barcadero.genius.core.model.User;
 
 public class ResponseLogin {
 

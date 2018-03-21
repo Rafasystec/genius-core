@@ -1,14 +1,15 @@
-package br.com.transferr.core.role;
+package br.com.barcadero.genius.core.role;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import br.com.transferr.core.dao.UserDAO;
-import br.com.transferr.core.exceptions.ValidationException;
-import br.com.transferr.core.mail.MailException;
-import br.com.transferr.core.model.User;
-import br.com.transferr.core.responses.ResponseLogin;
+
+import br.com.barcadero.genius.core.dao.UserDAO;
+import br.com.barcadero.genius.core.exceptions.ValidationException;
+import br.com.barcadero.genius.core.model.User;
+import br.com.barcadero.genius.core.responses.ResponseLogin;
+import br.com.barcadero.genius.mail.MailException;
 
 @Service
 public class RoleUser extends RoleSuperClass<User> {

@@ -1,8 +1,9 @@
-package br.com.transferr.core.role;
+package br.com.barcadero.genius.core.role;
 
 import org.springframework.stereotype.Service;
-import br.com.transferr.core.exceptions.ValidationException;
-import br.com.transferr.core.model.Parametro;
+
+import br.com.barcadero.genius.core.exceptions.ValidationException;
+import br.com.barcadero.genius.core.model.Parametro;
 
 @Service
 public class RoleParametros extends RoleSuperClass<Parametro>{

@@ -1,4 +1,4 @@
-package br.com.transferr.core.exceptions;
+package br.com.barcadero.genius.core.exceptions;
 
 public class ExceptionNotFoundRecord extends Exception{
 

@@ -1,4 +1,4 @@
-package br.com.transferr.core.metadata;
+package br.com.barcadero.genius.metadata;
 
 public class Coordinates {
 

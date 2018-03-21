@@ -1,4 +1,4 @@
-package br.com.transferr.core.enums;
+package br.com.barcadero.genius.core.enums;
 
 public enum EnumTypeDevice {
 

@@ -1,11 +1,11 @@
-package br.com.transferr.core.role;
+package br.com.barcadero.genius.core.role;
 
 import javax.persistence.EntityManager;
 
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.transferr.core.exceptions.ValidationException;
-import br.com.transferr.core.model.Entidade;
+import br.com.barcadero.genius.core.exceptions.ValidationException;
+import br.com.barcadero.genius.core.model.Entidade;
 
 /*
  * --------------------------------------------------------------------------

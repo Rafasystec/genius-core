@@ -1,11 +1,11 @@
-package br.com.transferr.core.dao;
+package br.com.barcadero.genius.core.dao;
 
 import javax.persistence.NoResultException;
 import javax.persistence.TypedQuery;
 
 import org.springframework.stereotype.Repository;
 
-import br.com.transferr.core.model.User;
+import br.com.barcadero.genius.core.model.User;
 
 
 

@@ -1,10 +1,10 @@
-package br.com.transferr.core.role;
+package br.com.barcadero.genius.core.role;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.transferr.core.mail.MailException;
-import br.com.transferr.core.mail.Sender;
+import br.com.barcadero.genius.mail.MailException;
+import br.com.barcadero.genius.mail.Sender;
 
 
 @Service

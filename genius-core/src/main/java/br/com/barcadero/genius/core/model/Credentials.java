@@ -1,6 +1,6 @@
-package br.com.transferr.core.model;
+package br.com.barcadero.genius.core.model;
 
-import br.com.transferr.core.enums.EnumTypeDevice;
+import br.com.barcadero.genius.core.enums.EnumTypeDevice;
 
 public class Credentials {
 

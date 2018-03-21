@@ -1,4 +1,4 @@
-package br.com.transferr.core.model;
+package br.com.barcadero.genius.core.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;

@@ -1,11 +1,11 @@
-package br.com.transferr.core.util;
+package br.com.barcadero.genius.core.util;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import br.com.transferr.core.metadata.CoordinatesAmplitude;
-import br.com.transferr.core.metadata.CoordinatesQuadrant;
+import br.com.barcadero.genius.metadata.CoordinatesAmplitude;
+import br.com.barcadero.genius.metadata.CoordinatesQuadrant;
 
 public class CoordinatesUtil {
 	

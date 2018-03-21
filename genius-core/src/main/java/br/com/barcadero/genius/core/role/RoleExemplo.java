@@ -1,11 +1,11 @@
-package br.com.transferr.core.role;
+package br.com.barcadero.genius.core.role;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.transferr.core.dao.DAOExemplo;
-import br.com.transferr.core.exceptions.ValidationException;
-import br.com.transferr.core.model.Exemplo;
+import br.com.barcadero.genius.core.dao.DAOExemplo;
+import br.com.barcadero.genius.core.exceptions.ValidationException;
+import br.com.barcadero.genius.core.model.Exemplo;
 
 
 @Service

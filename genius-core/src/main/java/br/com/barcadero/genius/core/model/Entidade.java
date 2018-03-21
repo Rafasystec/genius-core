@@ -1,4 +1,4 @@
-package br.com.transferr.core.model;
+package br.com.barcadero.genius.core.model;
 
 import java.io.Serializable;
 

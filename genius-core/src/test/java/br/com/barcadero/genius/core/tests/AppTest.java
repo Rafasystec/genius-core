@@ -1,4 +1,4 @@
-package transferr.transfer;
+package br.com.barcadero.genius.core.tests;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
