@@ -1,6 +1,6 @@
 package br.com.barcadero.genius.core.responses;
 
-import br.com.barcadero.genius.core.model.User;
+import br.com.barcadero.genius.persistence.model.User;
 
 public class ResponseLogin {
 

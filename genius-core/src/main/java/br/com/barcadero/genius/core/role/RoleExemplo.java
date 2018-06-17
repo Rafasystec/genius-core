@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import br.com.barcadero.genius.core.dao.DAOExemplo;
 import br.com.barcadero.genius.core.exceptions.ValidationException;
-import br.com.barcadero.genius.core.model.Exemplo;
+import br.com.barcadero.genius.persistence.model.Exemplo;
 
 
 @Service

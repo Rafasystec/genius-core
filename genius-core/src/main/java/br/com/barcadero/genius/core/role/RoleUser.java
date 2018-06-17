@@ -7,9 +7,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import br.com.barcadero.genius.core.dao.UserDAO;
 import br.com.barcadero.genius.core.exceptions.ValidationException;
-import br.com.barcadero.genius.core.model.User;
 import br.com.barcadero.genius.core.responses.ResponseLogin;
 import br.com.barcadero.genius.mail.MailException;
+import br.com.barcadero.genius.persistence.model.User;
 
 @Service
 public class RoleUser extends RoleSuperClass<User> {

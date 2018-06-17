@@ -3,7 +3,7 @@ package br.com.barcadero.genius.core.role;
 import org.springframework.stereotype.Service;
 
 import br.com.barcadero.genius.core.exceptions.ValidationException;
-import br.com.barcadero.genius.core.model.Parametro;
+import br.com.barcadero.genius.persistence.model.Parametro;
 
 @Service
 public class RoleParametros extends RoleSuperClass<Parametro>{

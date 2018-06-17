@@ -5,7 +5,7 @@ import javax.persistence.EntityManager;
 import org.springframework.transaction.annotation.Transactional;
 
 import br.com.barcadero.genius.core.exceptions.ValidationException;
-import br.com.barcadero.genius.core.model.Entidade;
+import br.com.barcadero.genius.persistence.model.Entidade;
 
 /*
  * --------------------------------------------------------------------------

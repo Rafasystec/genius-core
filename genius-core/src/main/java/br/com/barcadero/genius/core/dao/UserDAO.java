@@ -5,7 +5,7 @@ import javax.persistence.TypedQuery;
 
 import org.springframework.stereotype.Repository;
 
-import br.com.barcadero.genius.core.model.User;
+import br.com.barcadero.genius.persistence.model.User;
 
 
 
