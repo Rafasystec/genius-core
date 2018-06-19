@@ -18,11 +18,11 @@
 
 	
 		<bean id="postGresDataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
-			<property name="jndiName" value="java:comp/env/jdbc/transferr" />
+			<property name="jndiName" value="java:comp/env/jdbc/genius" />
 		</bean>
    		
         <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-              <property name="persistenceUnitName" value="TRANSFERR" />
+              <property name="persistenceUnitName" value="GENIUS" />
               <property name="dataSource" ref="postGresDataSource" />
               <property name="jpaVendorAdapter"> 
               	 	<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
@@ -38,9 +38,9 @@
         <!-- Define o pacote base para o escaneamento das anotações de contexto (@Component, @Repository, @Service, @Controller, etc) -->
        
 
-        <context:component-scan base-package="br.com.transferr.rest" />
- 		<context:component-scan base-package="br.com.transferr.core.role" />
- 		 <context:component-scan base-package="br.com.transferr.core.dao" />
+        <context:component-scan base-package="br.com.barcadero.genius.rest" />
+ 		<context:component-scan base-package="br.com.barcadero.genius.core.role" />
+ 		 <context:component-scan base-package="br.com.barcadero.genius.core.dao" />
         <context:annotation-config />
    
   </beans>
