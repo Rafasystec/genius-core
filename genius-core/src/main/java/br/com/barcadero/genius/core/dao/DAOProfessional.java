@@ -1,10 +1,13 @@
 package br.com.barcadero.genius.core.dao;
 
+import java.util.List;
+
 import javax.persistence.NoResultException;
 
 import org.springframework.stereotype.Repository;
 
 import br.com.barcadero.genius.persistence.model.Professional;
+import br.com.barcadero.genius.persistence.objects.Filter;
 
 
 
@@ -33,8 +36,13 @@ public class DAOProfessional extends SuperClassDAO<Professional> {
 		//Any changes has no effect
 	}
 	
-	public void listProByFilter() {
-		
+	public List<Professional> listProByFilter(Filter filter) throws Exception {
+		try {
+			//TODO Put filters and finish
+			return getManager().createQuery("FROM Professional",Professional.class).getResultList();
+		} catch (Exception e) {
+			throw e;
+		}
 	}
 
 }
